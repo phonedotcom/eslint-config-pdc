@@ -7,7 +7,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      image: node:18.17.0-slim
+      # We can't use -slim because we need Git
+      image: node:18.17.0
     timeout-minutes: 3
 
     steps:
