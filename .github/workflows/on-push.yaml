@@ -15,11 +15,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Add private SSH key for cloning other repos
-        uses: webfactory/ssh-agent@v0.8.0
-        with:
-          ssh-private-key: ${{ secrets.CI_SSH_PRETTIER_CONFIG_PDC }}
-
       - name: Cache dependencies
         uses: actions/cache@v3
         env:
