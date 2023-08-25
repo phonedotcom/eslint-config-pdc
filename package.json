@@ -4,8 +4,8 @@
   "description": "ESLint config for TypeScript",
   "main": ".eslintrc.cjs",
   "scripts": {
-    "format": "eslint --fix .eslintrc.cjs; prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
-    "lint": "eslint .eslintrc.cjs; prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+    "format": "eslint --fix .eslintrc.cjs && prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "eslint .eslintrc.cjs && prettier --check \"./**/*.{cjs,js,json,md,ts}\""
   },
   "repository": {
     "type": "git",
