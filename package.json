@@ -21,7 +21,7 @@
   "homepage": "https://github.com/phonedotcom/eslint-config-pdc#readme",
   "dependencies": {
     "eslint-config-prettier": "^9.0.0",
-    "eslint-config-standard-with-typescript": "^39.1.0",
+    "eslint-config-standard-with-typescript": "^39.1.1",
     "eslint-plugin-simple-import-sort": "^10.0.0"
   },
   "devDependencies": {
