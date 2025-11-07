@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       # We can't use -slim because we need Git
-      image: node:20.9.0
+      image: node:24.11.0
     timeout-minutes: 3
 
     steps:
