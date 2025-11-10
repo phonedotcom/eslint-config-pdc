@@ -6,8 +6,8 @@
   "scripts": {
     "deps:check": "ncu",
     "deps:update": "ncu -u",
-    "format": "eslint --fix .eslintrc.cjs && prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
-    "lint": "eslint .eslintrc.cjs && prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+    "format": "eslint --fix eslint.config.cjs && prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "eslint eslint.config.cjs && prettier --check \"./**/*.{cjs,js,json,md,ts}\""
   },
   "repository": {
     "type": "git",
