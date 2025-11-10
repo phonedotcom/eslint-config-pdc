@@ -1,6 +1,8 @@
 module.exports = (async function config() {
   const { love } = await import('eslint-config-love')
-  const { simpleImportSort } = await import('eslint-plugin-simple-import-sort')
+  const { default: simpleImportSort } = await import(
+    'eslint-plugin-simple-import-sort'
+  )
 
   return [
     {
