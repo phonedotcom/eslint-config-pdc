@@ -2,12 +2,13 @@
   "name": "eslint-config-pdc",
   "version": "1.0.0",
   "description": "ESLint config for TypeScript",
-  "main": ".eslintrc.cjs",
+  "main": "eslint.config.js",
+  "type": "module",
   "scripts": {
     "deps:check": "ncu",
     "deps:update": "ncu -u",
-    "format": "eslint --fix eslint.config.cjs && prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
-    "lint": "eslint eslint.config.cjs && prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+    "format": "eslint --fix . && prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "eslint . && prettier --check \"./**/*.{cjs,js,json,md,ts}\""
   },
   "repository": {
     "type": "git",
