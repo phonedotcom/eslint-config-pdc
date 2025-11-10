@@ -1,7 +1,7 @@
-import love from 'eslint-config-love'
-import simpleImportSort from 'eslint-plugin-simple-import-sort'
+const love = require('eslint-config-love')
+const simpleImportSort = require('eslint-plugin-simple-import-sort')
 
-export default [
+module.exports = [
   {
     ...love,
     files: ['**/*.js', '**/*.ts', '**/*.tsx'],

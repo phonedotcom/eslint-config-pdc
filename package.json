@@ -2,7 +2,7 @@
   "name": "eslint-config-pdc",
   "version": "1.0.0",
   "description": "ESLint config for TypeScript",
-  "main": "eslint.config.js",
+  "main": "eslint.config.cjs",
   "type": "module",
   "scripts": {
     "deps:check": "ncu",
