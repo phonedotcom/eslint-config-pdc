@@ -1,4 +1,4 @@
-const love = require('eslint-config-love')
+const love = require('eslint-config-love').default
 const simpleImportSort = require('eslint-plugin-simple-import-sort')
 
 module.exports = [
