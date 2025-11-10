@@ -3,7 +3,7 @@ module.exports = {
     {
       files: ['.js', '*.ts', '*.tsx'],
       extends: [
-        'eslint-config-standard-with-typescript',
+        'eslint-config-love',
         'eslint-config-prettier'
       ],
       parserOptions: { project: ['tsconfig.json'] },
