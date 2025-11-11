@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/phonedotcom/eslint-config-pdc#readme",
   "dependencies": {
-    "eslint-config-prettier": "^10.1.8",
+    "@typescript-eslint/eslint-plugin": "^8.46.4",
+    "@typescript-eslint/parser": "^8.46.4",
     "eslint-config-love": "^133.0.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-simple-import-sort": "^12.1.1"
   },
   "devDependencies": {
