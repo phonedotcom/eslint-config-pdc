@@ -5,6 +5,7 @@ const love = require('eslint-config-love').default
 
 module.exports = [
   {
+    ...love,
     files: ['**/*.ts', '**/*.tsx', '**/*.js'],
     languageOptions: {
       parser: tsParser,
@@ -18,7 +19,6 @@ module.exports = [
       'simple-import-sort': simpleImportSort
     },
     rules: {
-      ...love.rules,
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error'
     }
