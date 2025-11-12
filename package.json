@@ -7,7 +7,7 @@
   "scripts": {
     "deps:check": "ncu",
     "deps:update": "ncu -u",
-    "format": "eslint --fix eslint.config.cjs && prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "format": "eslint --fix . && prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
     "lint": "eslint . && prettier --check \"./**/*.{cjs,js,json,md,ts}\""
   },
   "repository": {
@@ -21,12 +21,8 @@
   },
   "homepage": "https://github.com/phonedotcom/eslint-config-pdc#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.46.4",
-    "@typescript-eslint/parser": "^8.46.4",
-    "eslint-config-love": "^133.0.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-simple-import-sort": "^12.1.1"
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "typescript-eslint": "^8.46.4"
   },
   "devDependencies": {
     "eslint": "^9.39.1",
