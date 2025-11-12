@@ -22,7 +22,8 @@
   "homepage": "https://github.com/phonedotcom/eslint-config-pdc#readme",
   "dependencies": {
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "typescript-eslint": "^8.46.4"
+    "@typescript-eslint/eslint-plugin": "^8.46.4",
+    "@typescript-eslint/parser": "^8.46.4"
   },
   "devDependencies": {
     "eslint": "^9.39.1",
