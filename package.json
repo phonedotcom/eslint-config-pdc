@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "eslint": "^9.39.1",
-    "npm-check-updates": "^19.1.2",
+    "npm-check-updates": "^19.2.1",
     "prettier": "^3.6.2",
     "prettier-config-pdc": "github:phonedotcom/prettier-config-pdc#main"
   },
